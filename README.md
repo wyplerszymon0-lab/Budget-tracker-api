@@ -28,14 +28,13 @@ REST API for tracking expenses and monthly budgets. Built in C# and .NET 8 with 
 
 ## Rune
 ```bash
-dotnet runes
+dotnet run
 # Swagger UI: https://localhost:5001/swagger
 ```
 
 ## Test
 ```bash
-continued Tests
-dotnettest
+dotnet test
 ```
 
 ## Structure
@@ -53,7 +52,7 @@ budget-tracker-api/
 ├── DTOs/
 │ ├── ExpenseDtos.cs
 │ └── BudgetDtos.cs
-├── Date/
+├── Data/
 │ └── AppDbContext.cs
 ├── Program.cs
 ├── BudgetTracker.csproj
